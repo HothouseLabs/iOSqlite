@@ -290,6 +290,7 @@
 				DSTROOT = /tmp/sqlite.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sqlite/sqlite-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -398,6 +399,7 @@
 				6217E904FA2A12729B213687 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6217ED3D2C737F7933690D1F /* Build configuration list for PBXNativeTarget "sqlite" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +408,7 @@
 				6217E7BE4D08CC35FFAF64B2 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
